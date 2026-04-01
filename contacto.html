@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>English Learning Movers</title>
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Contacto Academia de inglés ELM">
+    <meta name="keywords"
+        content="Academia de inglés Cartagena, inglés para bebés y niños, método natural de aprendizaje del inglés">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <div id="contenedor">
+        <!--div id=contenedor. Caja para encerrar todo el cuerpo de la pagina y que quede centrado en la pantalla del navegador. Hay que cerrarlo antes de cerrar la etiqueta body-->
+        <header>
+            <figure class="banner">
+                <img src="images/banner-contacto.svg" alt="Banner de English Learning Movers">
+                <figcaption class="superpuesto-esquina">
+                    <a href="index.html">English Learning Movers</a>
+                </figcaption>
+            </figure>
+
+            <div class="menu_bar">
+                <a href="#" class="bt-menu"><i class="material-icons">menu</i></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="material-icons">home</i>Inicio</a></li>
+                    <li><a href="horarios.html"><i class="material-icons">group</i>Horarios</a></li>
+                    <li class="submenu">
+                        <span class="nivel-desplegable"><i class="material-icons">arrow_drop_down</i>Niveles</span>
+                        <ul class="children">
+                            <li><a href="bebes-de-1-2-años.html"><i class="material-icons">navigate_next</i>Bebés</a>
+                            </li>
+                            <li><a href="ninos-ninas.html"><i class="material-icons">navigate_next</i>Niños</a></li>
+                            <li><a href="adolescentes.html"><i class="material-icons">navigate_next</i>Adolescentes</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html"><i class="material-icons">notifications</i>Blog</a></li>
+                    <li><a href="tienda.html"><i class="material-icons">store</i>Tienda</a></li>
+                    <li><a href="contacto.html"><i class="material-icons">contact_phone</i>Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="contacto-flex">
+            <!-- FORMULARIO -->
+            <div class="formulario-contacto">
+                <h2>Contáctanos</h2>
+                <form action="#" method="post">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+                    <button type="submit" class="boton-cta">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <!-- MAPA -->
+            <div class="ubicacion-mapa">
+                <h2>¿Dónde estamos?</h2>
+                <div class="mapa-contenedor">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!4v1755592952738!6m8!1m7!1s2OPlP4X9TbystBuORxa41g!2m2!1d37.62376606922314!2d-0.9587339990426667!3f315.09112376872093!4f-14.080381678909035!5f0.7820865974627469"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"> title="Mapa de ubicación de las clases de English
+                        Learning Movers"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div>
+                <h2>Enlaces</h2>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="horarios.html">Horarios</a></li>
+                    <li class="submenu">
+                        <span class="nivel-desplegable-footer"><i
+                                class="material-icons">arrow_drop_down</i>Niveles</span>
+                        <ul class="children">
+                            <li><a href="bebes-de-1-2-anos.html">Bebés de 1 a 2 años</a></li>
+                            <li><a href="ninos-ninas.html">Niños y niñas</a></li>
+                            <li><a href="adolescentes.html">Adolescentes</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="tienda.html">Tienda</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Social</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Contacto</h2>
+                <address>
+                    English Learning Movers<br>
+                    C/ Dublín, s/n<br>
+                    30007 Murcia
+                </address>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
