@@ -21,7 +21,7 @@ Landing page for English Learning Movers, a language academy in Cartagena. This 
 
 ## Demo
 
-[Live Demo](https://tusitio.com) *(replace with actual hosted link if available)*
+https://english-learning-movers.netlify.app/
 
 ## Author
 
